@@ -1,4 +1,4 @@
-@charset 'UFT-8';
+@charset "UFT-8";
 
 body {
     background-color: rgb(255, 179, 0);
@@ -32,15 +32,32 @@ header > h1 {
     padding-top: 4em;
     padding-bottom: 4em;
     border-radius: 5px;
-    font-size: 20px;
-    padding: 10px;
+    font-size: 16px;
+    padding: 6px;
+}
+
+.home {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 6px;
+    box-shadow: 3px 3px 1px 1px rgba(255, 179, 0, 0.563);
+    background-color: rgb(255, 179, 0);
+    color: black;
+    transition-duration: 0.3s;
 }
 
 .menu:hover {
     box-shadow: 3px 3px 1px 1px rgba(255, 179, 0, 0.563);
     background-color: rgb(255, 179, 0);
     color: black;
-    padding: 10px;
+    padding: 6px;
     font-weight: bolder;
     transition-duration: 0.3s;
 }
@@ -59,6 +76,34 @@ p {
 .local:hover {
     text-shadow: 2px 2px 1px 0px rgb(0, 0, 0);
     font-weight: bold;   
+}
+
+section#pesquisa {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.botao {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.74);
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.botao:hover {
+    background-color: rgba(0, 0, 0, 0.589);
+    border: 2px solid black;
+}
+
+#ibusca {
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid black;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.74);
 }
 
 main {
@@ -83,7 +128,6 @@ main > img {
 main a {
     text-decoration: none;
     color: white;
-    font-weight: normal;
 }
 
 main a:hover {
