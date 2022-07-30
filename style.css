@@ -88,8 +88,9 @@ p {
 }
 
 section#pesquisa {
-    margin-left: 15%;
-    margin-right: 15%;
+    min-width: 800px;
+    max-width: 1000px;
+    margin: auto;
 }
 
 .botao {
