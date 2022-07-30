@@ -20,7 +20,16 @@ header {
 header > h1 {
     font-variant: small-caps;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+header > h2 {
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 12px;
+    text-align: center;
+    color: white;
 }
 
 .menu {
